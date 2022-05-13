@@ -3,10 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 interface AppProps {
-  name: String
+  name: String;
 }
 
-const App:React.FC<AppProps> = ({name}) =>  {
+const App: React.FC<AppProps> = ({ name }) => {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,13 +18,12 @@ const App:React.FC<AppProps> = ({name}) =>  {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
       </header>
     </div>
   );
-}
+};
 
 export default App;

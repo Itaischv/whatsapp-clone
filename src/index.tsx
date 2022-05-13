@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App name={"App name"} />
+    <App name={'App name'} />
   </React.StrictMode>
 );
 
