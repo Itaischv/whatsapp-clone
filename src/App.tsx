@@ -2,7 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+interface AppProps {
+  name: String
+}
+
+const App:React.FC<AppProps> = ({name}) =>  {
   return (
     <div className="App">
       <header className="App-header">
