@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ChatsListScreen from "./components/ChatsListScreen";
+import ChatListScreen from "./components/ChatsListScreen";
 
 interface AppProps {
   name: String;
@@ -8,21 +10,9 @@ interface AppProps {
 
 const App: React.FC<AppProps> = ({ name }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <ChatListScreen />
+    </>
   );
 };
 
