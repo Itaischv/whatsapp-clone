@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="787772ce-7faa-4f97-b6c5-0c5945537e85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/ChatsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/ChatsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/ChatsNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/ChatsNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-client/src/components/ChatsListScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/db.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-server/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-server/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-server/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-server/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-server/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="294TaFW4lK1RDpuRR4ADrTkYvov" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/whatsapp-clone-client/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="787772ce-7faa-4f97-b6c5-0c5945537e85" name="Changes" comment="" />
+      <created>1652371420699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652371420699</updated>
+      <workItem from="1652371427941" duration="18240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/whatsapp-clone-server/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/whatsapp-clone-client" />
+    </ignored-roots>
+  </component>
+</project>

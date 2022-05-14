@@ -1,26 +1,25 @@
 import React from 'react';
-import { chats, messages } from "../../db";
-import moment from "moment";
-import { List, ListItem } from "@material-ui/core";
-import styled from "styled-components";
+import moment from 'moment';
+import { List, ListItem } from '@material-ui/core';
+import styled from 'styled-components';
+import { useState, useMemo } from "react";
 
 // Styles
 
 const Container = styled.div`
-    height: calc(100% - 56px);
-    overflow-y: overlay;
+  height: calc(100% - 56px);
+  overflow-y: overlay;
 `;
 
 const StyledList = styled(List)`
-    padding: 0 !important;
+  padding: 0 !important;
 `;
 
 const StyledListItem = styled(ListItem)`
-    height: 76px;
-    padding: 0 15px;
-    display: flex;
+  height: 76px;
+  padding: 0 15px;
+  display: flex;
 `;
-
 
 const ChatPicture = styled.img`
   height: 50px;
@@ -58,28 +57,37 @@ const MessageDate = styled.div`
   right: 0;
   font-size: 13px;
 `;
+const ChatsList = () => {
+    const [chats, setChats] = useState<any[]>([]);
 
-const ChatsList: React.FC = () => (
-    <Container>
-        <StyledList>
-            {chats.map(chat => {
-                return(
-                    <ListItem key={chat.id}>
-                        <ChatPicture src={chat.picture} alt="Profile"/>
+    useMemo(async () => {
+        const body = await fetch(`${process.env.REACT_APP_SERVER_URL}/chats`);
+        const chats = await body.json();
+        setChats(chats);
+    }, []);
+
+    return (
+        <Container>
+            <StyledList>
+                {chats.map((chat) => (
+                    <StyledListItem key={chat!.id} button>
+                        <ChatPicture src={chat.picture} alt="Profile" />
                         <ChatInfo>
                             <ChatName>{chat.name}</ChatName>
                             {chat.lastMessage && (
-                                <>
+                                <React.Fragment>
                                     <MessageContent>{chat.lastMessage.content}</MessageContent>
-                                    <MessageDate>{moment(chat.lastMessage.createdAt).format('HH:mm')}</MessageDate>
-                                </>
+                                    <MessageDate>
+                                        {moment(chat.lastMessage.createdAt).format('HH:mm')}
+                                    </MessageDate>
+                                </React.Fragment>
                             )}
                         </ChatInfo>
-                    </ListItem>
-                )
-            })}
-        </StyledList>
-    </Container>
-)
+                    </StyledListItem>
+                ))}
+            </StyledList>
+        </Container>
+    );
+};
 
 export default ChatsList;

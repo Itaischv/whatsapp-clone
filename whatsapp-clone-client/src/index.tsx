@@ -6,11 +6,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const theme = createTheme({
-    palette: {
-        primary: { main: '#2c6157' },
-        secondary: { main: '#6fd056' }
-    }
-})
+  palette: {
+    primary: { main: '#2c6157' },
+    secondary: { main: '#6fd056' },
+  },
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

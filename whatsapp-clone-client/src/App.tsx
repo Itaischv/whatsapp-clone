@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ChatsListScreen from "./components/ChatsListScreen";
-import ChatListScreen from "./components/ChatsListScreen";
+import ChatsListScreen from './components/ChatsListScreen';
+import ChatListScreen from './components/ChatsListScreen';
 
 interface AppProps {
   name: String;
@@ -11,7 +11,7 @@ interface AppProps {
 const App: React.FC<AppProps> = ({ name }) => {
   return (
     <>
-        <ChatListScreen />
+      <ChatListScreen />
     </>
   );
 };
